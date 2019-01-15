@@ -46,6 +46,7 @@ a:hover {
 /*****************************************************************************/
 /*
 /* Home
+/* Logo: Profile picture
 /*
 /*****************************************************************************/
 #logo {
@@ -67,7 +68,7 @@ a:hover {
 
 .posts-list li {
   text-align: center;
-  line-height: 1.75em;
+  line-height: 1.4em;
 }
 
 /*****************************************************************************/
@@ -86,6 +87,12 @@ a:hover {
   display: inline-block;
   text-align: center;
   line-height: 25px;
+}
+
+.username{
+  text-align: center;
+  display: block;
+  margin-top: 0.5em;
 }
 
 .tagline {
@@ -182,10 +189,15 @@ a:hover {
 }
 
 .post p {
-  font-family: 'Source Sans Pro', Arial, sans-serif;
-  font-size: 17px;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 1.2em;
   margin-bottom: 1.45em;
   text-align: justify;
+}
+
+.post li {
+  font-family: 'Palatino', URW;
+  font-size: 1.2em;
 }
 
 .post ul, .post ol {
@@ -231,7 +243,7 @@ a:hover {
 
 .sidebar {
   float: left;
-  width: 14%;
+  width: 13%;
   padding-left: 11em;
   padding-right: 2.125em;
   border-right: 1px solid #e7e7e7;
