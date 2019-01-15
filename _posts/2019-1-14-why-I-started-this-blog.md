@@ -7,10 +7,11 @@ categories: posts
 
 **First of all, welcome and thank you for reading my posts. (If there will be any more)**
 
-##Motivation
+## Motivation
+
 I recently figured that writing is a good way to clarify priorities and reinforce memory. Starting when I was a freshman I thought about having my own blog, as I would like to write longer posts that serve as reflections to life/study, but it was only an idea. Now that I am a graduating senior with about 100 days to go, I know it is now or never to start a blog during college. I am really happy to see this simple website come live on github page. I kept my promise to myself. Yeah~
 
-##What I planned to write in the blog
+## What I planned to write in the blog
 
 I will roughly split to (Subject to be changed) 
 
