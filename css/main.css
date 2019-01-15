@@ -20,7 +20,7 @@ body {
   background-color: #fafbfc;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 400;
-  font-size: 0.85em;
+  font-size: 0.80em;
   overflow: hidden;
 }
 
@@ -50,6 +50,7 @@ a:hover {
 /*****************************************************************************/
 #logo {
   max-width: 128px;
+  border-radius: 50%;
 }
 
 .posts a {
@@ -133,8 +134,15 @@ a:hover {
   display: block;
 }
 
+#cover-photo {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
 #info-container {
   margin-top: 3em;
+  margin-bottom: 3em;
 }
 
 #title {
