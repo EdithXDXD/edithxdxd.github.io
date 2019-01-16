@@ -1,3 +1,9 @@
 name: Edith Shao
 # markdown: redcarpet
 highlighter: rouge
+# add any customized folder
+include:
+  - _files
+# display dynamic modified dates
+plugins:
+  - jekyll-last-modified-at

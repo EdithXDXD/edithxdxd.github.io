@@ -136,6 +136,16 @@ a:hover {
   color: #787878;
 }
 
+#post-date {
+  font-family:'Lato', Arial, sans-serif;
+  font-size: 1.2em;
+  font-style: italic;
+  padding-top: 0.25em;
+  margin-bottom: 1em;
+  font-weight: 600;
+  color: #787878;
+}
+
 #cover-photo-container,
 #info-container {
   display: block;
@@ -148,8 +158,8 @@ a:hover {
 }
 
 #info-container {
-  margin-top: 3em;
-  margin-bottom: 3em;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 #title {
@@ -157,7 +167,6 @@ a:hover {
   margin-bottom: 0.35em;
   font-size: 3em;
   line-height: 40px;
-  text-transform: uppercase;
 }
 
 .post {
@@ -269,6 +278,9 @@ a:hover {
   text-transform: uppercase;
 }
 
+/*
+**  post date on side bar 
+*/
 .post-date {
   color: #8a8a8a;
   font-family: Monaco, "Courier New", monospace;

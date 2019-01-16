@@ -32,7 +32,7 @@
             {% for post in site.posts %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
+                  <span class="post-date">{{ post.last_modified_at |  date_to_string }}</span>
                   {{ post.title }}
                 </a>
               </li>
@@ -41,7 +41,7 @@
         </div>
         <div class="footer">
           <span id="footer-links">
-            <a href="2019-1-14-About-Me.md" class="footer-link">About</a> <span class="separator">&bull;</span>
+            <a href={{site.baseurl}} {% link _posts/2019-1-14-About-Me.md %} class="footer-link">About</a> <span class="separator">&bull;</span>
             <a href="https://www.linkedin.com/in/ruyinshao/" class="footer-link">Linkedin</a> <span class="separator">&bull;</span>
             <a href="https://github.com/EdithXDXD" class="footer-link">GitHub</a>
           </span>
