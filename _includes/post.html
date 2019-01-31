@@ -8,7 +8,10 @@
     </div>
     <div id="info-container">
       <h1 id="title">{{ page.title }}</h1>
-      <span id="post-date">Date: {{ page.date | date: '%B %-d, %Y' }}</span>
+      <!-- '%B %-d, %Y' -->
+      <span id="post-date">
+          Date: {{ page.date | date:'%B %-d, %Y' }}
+        </span>
     </div>
   </div>
 

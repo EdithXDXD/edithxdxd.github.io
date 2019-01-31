@@ -1,4 +1,4 @@
-name: Edith Shao
+# name: Edith Shao
 # markdown: redcarpet
 highlighter: rouge
 # add any customized folder
@@ -7,6 +7,3 @@ include:
 # display dynamic modified dates
 plugins:
   - jekyll-sitemap
-
-site:
-  - about: _posts/2019-1-14-About-Me.md
