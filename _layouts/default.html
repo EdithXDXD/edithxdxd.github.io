@@ -34,7 +34,9 @@
                 <a class="post-title" href="{{ post.url }}">
                   <span class="post-date">
                     <!--lastmod>{{ post.last_modified_at |  date_to_string }}</lastmod-->
-                      {{ post.date | date_to_string }}
+                      {% if post.date != None %}
+                          {{ post.date | date_to_string }}
+                      {% endif %}
                   </span>
                   {{ post.title }}
                 </a>
