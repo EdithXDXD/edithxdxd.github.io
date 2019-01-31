@@ -6,4 +6,7 @@ include:
   - _files
 # display dynamic modified dates
 plugins:
-  - jekyll-last-modified-at
+  - jekyll-sitemap
+
+site:
+  - about: _posts/2019-1-14-About-Me.md

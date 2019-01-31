@@ -32,11 +32,10 @@
             {% for post in site.posts %}
               <li class="post-link">
                 <a class="post-title" href="{{ post.url }}">
-
-                  {% if post.last_modified_at %}
-                  <span class="post-date">{{ post.last_modified_at |  date_to_string }}</span>
-                  {% endif %}
-
+                  <span class="post-date">
+                    <!--lastmod>{{ post.last_modified_at |  date_to_string }}</lastmod-->
+                      {{ post.date | date_to_string }}
+                  </span>
                   {{ post.title }}
                 </a>
               </li>
